@@ -1,12 +1,11 @@
-import streamlit
-import pandas
-import numpy
-import matplotlib.pyplot
-import seaborn
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import confusion_matrix
-import joblib
+streamlit==22.0.3
+seaborn==0.10.1
+numpy==1.23.5
+matplotlib==3.6.2
+sklearn.model_selection
+sklearn.preprocessing
+sklearn.ensemble
+sklearn.svm
+sklearn.linear_model
+sklearn.metrics
+joblib
